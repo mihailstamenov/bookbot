@@ -14,7 +14,6 @@ def get_book_text(path):
 
 def get_word_count(text):
     split = text.split()
-    # print(split)
     return len(split)
 
 def get_character_count(text):
@@ -28,18 +27,3 @@ def get_character_count(text):
     return dict
 
 main()
-
-
-# alphabet = 'abcdefghijklmnopqrstuvwxyz\'.ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-# numbers = '0123456789'
-# symbols = '\'`., ()[]-'
-
-# dict = {}
-# for char in alphabet:
-#         char = char.lower()
-#         if char in dict:
-#             dict[char] = dict[char]+1
-#         else:
-#             dict[char] = 1
-
-# print(dict)
